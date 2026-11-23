@@ -1,0 +1,16 @@
+id = "ultimine"
+name = "Ultimine"
+version = "0.1.0"
+description = "Area mining in the style of FTB Ultimine: hold sneak while breaking a block to break the connected blocks, a tunnel or a square with it."
+authors = ["you"]
+license = "MIT"
+api = "0.2"
+side = "both"
+capabilities = ["registries"]
+
+[native]
+game = "26.3"
+# Placeholders: `cargo horizon-mod new ultimine --template native` writes the
+# exact pins of the current Nightly. Copy src/ into that project (see README).
+horizon = "20f0212386b0209848ee188797a9981809a82f2d"
+mixins = "e59da9094f0c2fdda6c627fe9eff22dec6a906f0"
